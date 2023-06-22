@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>MedTourism</title>
+    </head>
+    <body>
+        <div class="page-background"></div>
+        <header class="website-tab-x">
+            <a href="/" class="navbar__logo">
+                <img src="assets/logo.png" alt="Logo" />
+                <span>Med Tourism</span>
+            </a>
+            <nav class="navbar">
+                <ul class="navbar__navlinks">
+                    <li class="navbar__navlinks-navlink logged-out" id="login">
+                        <a>Log In </a>
+                    </li>
+
+                    <li class="navbar__navlinks-navlink logged-out" id="signup">
+                        <a>Sign Up </a>
+                    </li>
+
+                    <li class="navbar__navlinks-navlink logged-in" id="logout">
+                        <a>Log Out </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero website-tab-y">
+                <div class="section website-tab-x">
+                    <div class="left-side">
+                        <h1>Health above</h1>
+                        <p>
+                            Saving lives through helping people solve their
+                            health problems is the main goal of our project. We
+                            provide an opportunity to find and receive quality
+                            medical treatment at the most affordable prices.
+                        </p>
+                    </div>
+                    <div class="right-side">
+                        <h1>Find What You Need</h1>
+                        <p>
+                            The best hospitals and medical centers of our city
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="med-center website-tab-y website-tab-x">
+                <img src="./assets/surbgl.jpg" alt="" />
+                <div class="text">
+                    <h2>Saint G.Lusavorich Medical Center</h2>
+                    <p>
+                        The “St. Grigor Lusavorich” Medical Center is considered
+                        one of the advanced medical centers in Armenia. Built in
+                        1977, the Medical Center was founded by Academician
+                        Suren K. Avdalbekian. Initially, the Hospital has been
+                        known as Municipal Emergency Aid Hospital #2. In 1991
+                        the Hospital was given a new name of the Emergency
+                        Scientific Medical Center which incorporated also an
+                        Emergency Care station of Yerevan city. Just in 1994,
+                        the Emergency Care station was fully detached to become
+                        a separate institution. Nevertheless, training and
+                        methodical programs with the Emergency Scientific
+                        Medical Center have been retained, and a great number of
+                        the Emergency Care Station system specialists were also
+                        embraced within the retraining courses arranged in
+                        cooperation with advanced centers of the USA. For the
+                        first time in Armenia and CIS, a large diversified
+                        surgery-oriented hospital has been used to found up a
+                        2nd grade Traumatic Center complied with international
+                        standards. That entailed deployment of certain
+                        surgery-oriented departments and opening up new ones. As
+                        a diversified institution, the Medical Research Center
+                        stood out for its active work in the days of the
+                        disastrous earthquake and during Karabagh war, not only
+                        having medical support set up on the spot, but also
+                        sending physicians out in voluntary lines to render
+                        medical assistance in the distant hospitals of the
+                        country. Since 1992, the Medical Center managed by
+                        Professor Ara M. Minasian is in a well-established
+                        relationship in the sphere of working and training
+                        programs with US Boston Medical Center and Massachusetts
+                        Medical University. Supported by the above-mentioned
+                        institutions, the Medical Center used its base (former
+                        reanimation department) to set up the first in the
+                        Republic emergency care and reanimation department, what
+                        has fully altered and improved the situation with the
+                        admission of badly injured patients waiting for
+                        immediate intervention, and principal approaches worked
+                        out to arrange medical treatment. In 1992 the
+                        above-mentioned US Centers assisted their Armenian
+                        partner to open up an Emergency Care Regional Training
+                        Center which was upgraded to a Chair of Emergency Aid of
+                        National Healthcare Institute in 1994. The Chair
+                        cooperated with the US Centers to elaborate and deliver
+                        some training courses for the intra-hospital and
+                        hospital emergency care doctors, nurses and drivers. In
+                        1997, collaboration with US Oakridge Radiation Center
+                        experts resulted in processing still delivered first
+                        regional training courses for preparation to such an
+                        urgent regional issue as radiation disasters, resisting
+                        to them and reduction of impending losses. The Hospital
+                        and the Chair laid the foundation of a medical service
+                        TV bridge, to have ties established between Armenian
+                        regions and to give advice in necessary cases. The “St.
+                        Grigor Lusavorich” Medical Center is a basis not only
+                        for the Emergency Aid Chair but for 10 other Chairs of
+                        National Healthcare Institute, as well as for the
+                        Mkhitar Heraci State Medical University Chairs of
+                        Therapy and Children’s Neurology. Тhe Medical Center has
+                        1600 employees.
+                    </p>
+                </div>
+            </section>
+
+            <footer>
+                <div class="container website-tab-x">
+                    <section class="comment-section website-tab-y">
+                        <div class="comments"></div>
+                        <form id="comment-form" class="logged-in">
+                            <input type="text" id="comment-input" />
+                            <button>Send</button>
+                        </form>
+                        <h2 class="logged-out">
+                            You can't leave a comment unless you sign-in
+                        </h2>
+                    </section>
+                </div>
+            </footer>
+        </main>
+
+        <div class="login-form">
+            <div class="login-header">
+                <img src="assets/logo.png" alt="Logo" />
+            </div>
+            <div class="login-body">
+                <h2>Log In</h2>
+                <form id="login-form">
+                    <input
+                        type="email"
+                        id="login-email"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <input
+                        type="password"
+                        id="login-password"
+                        placeholder="Password"
+                        required
+                    />
+                    <button>Log in</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="signup-form">
+            <div class="signup-header">
+                <img src="assets/logo.png" alt="Logo" />
+            </div>
+            <div class="signup-body">
+                <h2>Sign Up</h2>
+                <form id="signup-form">
+                    <input
+                        type="email"
+                        id="signup-email"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <input
+                        type="password"
+                        id="signup-password"
+                        placeholder="Password"
+                        required
+                    />
+                    <button>Sign Up</button>
+                </form>
+            </div>
+        </div>
+
+        <script type="module" src="auth.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

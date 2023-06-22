@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>MedTourism</title>
+    </head>
+    <body>
+        <div class="page-background"></div>
+        <header class="website-tab-x">
+            <a href="/" class="navbar__logo">
+                <img src="assets/logo.png" alt="Logo" />
+                <span>Med Tourism</span>
+            </a>
+            <nav class="navbar">
+                <ul class="navbar__navlinks">
+                    <li class="navbar__navlinks-navlink logged-out" id="login">
+                        <a>Log In </a>
+                    </li>
+
+                    <li class="navbar__navlinks-navlink logged-out" id="signup">
+                        <a>Sign Up </a>
+                    </li>
+
+                    <li class="navbar__navlinks-navlink logged-in" id="logout">
+                        <a>Log Out </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero website-tab-y">
+                <div class="section website-tab-x">
+                    <div class="left-side">
+                        <h1>Health above</h1>
+                        <p>
+                            Saving lives through helping people solve their
+                            health problems is the main goal of our project. We
+                            provide an opportunity to find and receive quality
+                            medical treatment at the most affordable prices.
+                        </p>
+                    </div>
+                    <div class="right-side">
+                        <h1>Find What You Need</h1>
+                        <p>
+                            The best hospitals and medical centers of our city
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="med-center website-tab-y website-tab-x">
+                <img src="./assets/hanrapet.jpg" alt="" />
+                <div class="text">
+                    <h2>Republic Medical Center</h2>
+                    <p>
+                        Organism is an organic body, complex of physical and
+                        psychical human capabilities. It is a system whereas
+                        each organ has its own role and meaning, mechanism which
+                        originally has already developed activity, liability to
+                        constant motion. This all is about “ARMENIA” RMC, the
+                        whole organism which has its breath, spirit expressed by
+                        attention and readiness of doctors. At the result of
+                        right activity this organism creates healthy and perfect
+                        cooperation and the professionalism of doctors of course
+                        has important meaning Each organism is strong and
+                        healthy enough depending on changes in it. Realizing the
+                        role and meaning of diagnostics we have also mention the
+                        fact that the diagnostic center is supplied with
+                        innovative equipment and best specialists. The
+                        diagnostic center has been recently been equipped with
+                        Aquilion one Toshiba tomographic scanner which is
+                        singular in Armenia. The scanner makes 640 layers and
+                        works in conditions of minimum beaming. Apparatus Aplio
+                        500 with possibility to make 4D examinations is used
+                        here. ratory equipped with modern apparatus Roche-Cobas
+                        C311, E411,Sysmex XS X500 which allows to reveal factors
+                        of genesis of many pathogenic diseases and therefore to
+                        change treatment process. Cobas C311 is situated in
+                        biochemical laboratory and do 300 examinations during
+                        one hour. It is necessary to mention that 73% of tests
+                        is possible to realize if available 5 or less μ of
+                        serosity and this widely used especially in pediatrics.
+                        The apparatus permits to do more than 200 tests sparing
+                        7-15 minutes per test.
+                    </p>
+                </div>
+            </section>
+
+            <footer>
+                <div class="container website-tab-x">
+                    <section class="comment-section website-tab-y">
+                        <div class="comments"></div>
+                        <form id="comment-form" class="logged-in">
+                            <input type="text" id="comment-input" />
+                            <button>Send</button>
+                        </form>
+                        <h2 class="logged-out">
+                            You can't leave a comment unless you sign-in
+                        </h2>
+                    </section>
+                </div>
+            </footer>
+        </main>
+
+        <div class="login-form">
+            <div class="login-header">
+                <img src="assets/logo.png" alt="Logo" />
+            </div>
+            <div class="login-body">
+                <h2>Log In</h2>
+                <form id="login-form">
+                    <input
+                        type="email"
+                        id="login-email"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <input
+                        type="password"
+                        id="login-password"
+                        placeholder="Password"
+                        required
+                    />
+                    <button>Log in</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="signup-form">
+            <div class="signup-header">
+                <img src="assets/logo.png" alt="Logo" />
+            </div>
+            <div class="signup-body">
+                <h2>Sign Up</h2>
+                <form id="signup-form">
+                    <input
+                        type="email"
+                        id="signup-email"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <input
+                        type="password"
+                        id="signup-password"
+                        placeholder="Password"
+                        required
+                    />
+                    <button>Sign Up</button>
+                </form>
+            </div>
+        </div>
+
+        <script type="module" src="auth.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
